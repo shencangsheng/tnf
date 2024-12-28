@@ -1,6 +1,6 @@
 import type yargsParser from 'yargs-parser';
 import type { Config } from '../config/types.js';
-import type { PluginManager } from '../plugin/plugin_manager.js';
+import type { PluginManager } from '../plugin/plugin-manager.js';
 import type { Plugin } from '../plugin/types.js';
 
 export interface Pkg {

@@ -1,5 +1,5 @@
 import { expect, test, vi } from 'vitest';
-import { generatePathsFromAlias } from './write_types.js';
+import { generatePathsFromAlias } from './write-types.js';
 
 // Mock fs.statSync
 vi.mock('fs', () => ({

@@ -2,13 +2,13 @@ import path from 'pathe';
 import * as logger from '../fishkit/logger.js';
 import { sync as runSync } from '../sync/sync.js';
 import type { Context } from '../types/index.js';
-import { buildSrc } from './build_src.js';
+import { buildSrc } from './build-src.js';
 import {
   checkReactConflicts,
   checkUnsupportedPackages,
-} from './check_dependency.js';
-import { checkPackageUsage } from './check_package_usage.js';
-import { checkPhantomDeps } from './check_phantom_deps.js';
+} from './check-dependency.js';
+import { checkPackageUsage } from './check-package-usage.js';
+import { checkPhantomDeps } from './check-phantom-deps.js';
 
 interface DoctorOptions {
   context: Context;

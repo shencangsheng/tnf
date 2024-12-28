@@ -5,7 +5,7 @@ import { BundlerType, createBundler } from './bundler/bundler.js';
 import { doctor } from './doctor/doctor.js';
 import * as logger from './fishkit/logger.js';
 import { buildHtml } from './html.js';
-import { PluginHookType } from './plugin/plugin_manager.js';
+import { PluginHookType } from './plugin/plugin-manager.js';
 import { sync } from './sync/sync.js';
 import { type Context } from './types/index.js';
 import { Watcher } from './watch/watcher.js';

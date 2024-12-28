@@ -1,14 +1,14 @@
 import fs from 'fs';
 import * as logger from '../fishkit/logger.js';
 import type { Context } from '../types/index.js';
-import { writeClientEntry } from './write_client_entry.js';
-import { writeDocs } from './write_docs.js';
-import { writeGlobalStyle } from './write_global_style.js';
-import { writeRouteTree } from './write_route_tree.js';
-import { writeRouter } from './write_router.js';
-import { writeServerEntry } from './write_server_entry.js';
-import { writeTailwindcss } from './write_tailwindcss.js';
-import { writeTypes } from './write_types.js';
+import { writeClientEntry } from './write-client-entry.js';
+import { writeDocs } from './write-docs.js';
+import { writeGlobalStyle } from './write-global-style.js';
+import { writeRouteTree } from './write-route-tree.js';
+import { writeRouter } from './write-router.js';
+import { writeServerEntry } from './write-server-entry.js';
+import { writeTailwindcss } from './write-tailwindcss.js';
+import { writeTypes } from './write-types.js';
 
 export interface SyncOptions {
   context: Context;

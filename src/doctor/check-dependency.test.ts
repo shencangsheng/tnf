@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { checkUnsupportedPackages } from './check_dependency.js';
+import { checkUnsupportedPackages } from './check-dependency.js';
 
 test('checkUnsupportedPackages() - should throw error for monaco-editor', () => {
   expect(() =>

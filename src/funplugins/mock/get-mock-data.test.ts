@@ -1,6 +1,6 @@
 import { join } from 'path';
 import { expect, test } from 'vitest';
-import { getMockData } from './get_mock_data.js';
+import { getMockData } from './get-mock-data.js';
 
 const fixtures = join(__dirname, 'fixtures');
 

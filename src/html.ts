@@ -2,7 +2,7 @@ import assert from 'assert';
 import ejs from 'ejs';
 import fs from 'fs';
 import path from 'pathe';
-import { PluginHookType } from './plugin/plugin_manager.js';
+import { PluginHookType } from './plugin/plugin-manager.js';
 import type { Context } from './types/index.js';
 
 const DEFAULT_HTML = `

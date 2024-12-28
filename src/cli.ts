@@ -14,9 +14,9 @@ import {
   setNodeTitle,
 } from './fishkit/node.js';
 import { mock } from './funplugins/mock/mock.js';
-import { reactCompiler } from './funplugins/react_compiler/react_compiler.js';
-import { reactScan } from './funplugins/react_scan/react_scan.js';
-import { PluginHookType, PluginManager } from './plugin/plugin_manager.js';
+import { reactCompiler } from './funplugins/react_compiler/react-compiler.js';
+import { reactScan } from './funplugins/react_scan/react-scan.js';
+import { PluginHookType, PluginManager } from './plugin/plugin-manager.js';
 import { type Context, Mode } from './types/index.js';
 
 async function buildContext(cwd: string): Promise<Context> {

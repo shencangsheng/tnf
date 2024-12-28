@@ -1,7 +1,7 @@
 import { resolve } from 'pathe';
 import sirv from 'sirv';
 import { createServer } from './fishkit/server.js';
-import { PluginHookType } from './plugin/plugin_manager.js';
+import { PluginHookType } from './plugin/plugin-manager.js';
 import type { Context } from './types/index.js';
 
 export async function preview({ context }: { context: Context }) {
